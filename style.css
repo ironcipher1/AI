@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(A1.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    
+}
+.container{
+    background-color: black;
+    padding: 40px;
+    height: 70vh;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 15px 100px;
+}
+.container input{
+    margin-top: 300px;
+    float: right;
+    margin-right: 10px;
+    width: 300px;
+    padding: 10px 8px 10px 5px;
+    border-radius: 10px;
+    border-style:double;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.container button{
+    margin-top: 300px;
+    float: right;
+    border-radius: 10px;
+    border-style:double;
+    background-color:green;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border: solid ;
+
+}
+.container button:hover{
+    background-color: white;
+    color: black;
+    border: solid black;
+}
+.mytext{
+    text-align: right;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.result{
+    font-size: 20px;
+}
